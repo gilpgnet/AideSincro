@@ -20,5 +20,7 @@ android {
 }
 
 dependencies {
+	compile 'com.android.support:design:27.+'
+	compile 'com.android.support:appcompat-v7:27.+'
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
