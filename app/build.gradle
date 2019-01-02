@@ -17,8 +17,7 @@ android {
   }
 }
 dependencies {
-  def version_soporte = "26.0.2"
-  implementation "com.android.support:appcompat-v7:$version_soporte"
-  implementation "com.android.support:design:$version_soporte"
+  compile "com.android.support:appcompat-v7:26.0.2"
+  compile "com.android.support:design:26.0.2"
   compile fileTree(dir: 'libs', include: ['*.jar'])
 }
