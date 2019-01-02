@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- El CoordinatorLayout coloca los componentes uno sobre el otro, como
+si fueran un montón de cartas. Se necesita para mostrar los Snackbar.
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:id="@+id/scrollView" 
+  android:layout_width="match_parent" 
+  android:layout_height="match_parent">
+  <android.support.v7.widget.LinearLayoutCompat android:id="@+id/linearLayout" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:orientation="vertical" 
+    android:padding="16dp">
+    <EditText android:id="@+id/iuNombre" 
+      android:layout_width="match_parent" 
+      android:layout_height="wrap_content" 
+      android:hint="@string/nombre" 
+      android:inputType="text"/>
+  </android.support.v7.widget.LinearLayoutCompat>
+</ScrollView>

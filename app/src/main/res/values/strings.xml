@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">AideSincro</string>
-    <string name="hello_world">Hello world!</string>
-
+  <string name="nombre">Nombre</string>
+  <string name="agrega">Agregar</string>
+  <string name="cancela">Cancelar</string>
+  <string name="guarda">Guardar</string>
+  <string name="elimina">Eliminar</string>
+  <string name="pasatiempos">Pasatiempos</string>
+  <string name="pasatiempo_nuevo">Pasatiempo Nuevo</string>
+  <string name="no_encontrado">Registro no encontrado.</string>
+  <string name="falta_el_texto">Falta el nombre.</string>
+  <string name="mas_de_255">El nombre tiene más de 255 caracteres.</string>
 </resources>

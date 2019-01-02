@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+  <!-- Elemento del menú. android:title="@string/guarda" Texto del elemento. android:showAsAction="ifRoom"
+      Trata de desplegar el elemento en la barra de título. Si no cabe, se
+      pasa al menú de extensión.-->
+  <item android:id="@+id/action_guarda" 
+    android:title="@string/guarda" 
+    app:showAsAction="ifRoom"/>
+  <item android:id="@+id/action_elimina" 
+    android:title="@string/elimina" 
+    app:showAsAction="never"/>
+</menu>
