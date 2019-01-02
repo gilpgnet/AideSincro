@@ -1,3 +1,6 @@
+.gradle
+.settings
+.project
 bin/
 gen/
 obj/
