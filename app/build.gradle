@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 android {
-  compileSdkVersion 21
-  buildToolsVersion "21.1.0"
+  compileSdkVersion 27
+  buildToolsVersion "27.+"
   defaultConfig {
     applicationId "net.ramptors.asincro"
-    minSdkVersion 14
-    targetSdkVersion 21
+    minSdkVersion 15
+    targetSdkVersion 28
     versionCode 1
     versionName "1.0"
   }
@@ -16,8 +16,10 @@ android {
     }
   }
 }
-
 dependencies {
+  compile ('android.arch.core:runtime:+') {
+    force = true
+  }
 	compile 'com.android.support:design:27.+'
 	compile 'com.android.support:appcompat-v7:27.+'
   compile fileTree(dir: 'libs', include: ['*.jar'])
