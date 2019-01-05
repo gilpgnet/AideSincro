@@ -34,7 +34,7 @@ public class CtrlSincro {
     CtrlSincro.ctrlPasatiempos = ctrlPasatiempos;
   }
 
-  public static synchronized void sincroniza(CtrlPasatiempos ctrlPasatiempos) throws JSONException {
+  public static synchronized void sincroniza(CtrlPasatiempos ctrlPasatiempos) {
     CtrlSincro.ctrlPasatiempos = ctrlPasatiempos;
     switch (etapa) {
     case INICIA:
