@@ -22,7 +22,7 @@ public class CtrlSincro {
     INICIA, SINCRONIZANDO, MOSTRANDO
   }
 
-  private final String URL_SINCRO = "https://sincro.000webhostapp.com/servicio/sincro.php";
+  private static final String URL_SINCRO = "https://sincro.000webhostapp.com/servicio/sincro.php";
   private static final String tag = CtrlSincro.class.getName();
   protected static final Executor executor = Executors.newSingleThreadExecutor();
   private static Etapa etapa = Etapa.INICIA;
